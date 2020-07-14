@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="310dp"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivUser"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/userlogo" />
+
+    <TextView
+        android:id="@+id/textUserName"
+        android:layout_width="181dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="109dp"
+        android:layout_toRightOf="@id/ivUser"
+        android:text="User name"
+        android:textColor="@color/blue"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/ivEvent"
+        android:layout_width="141dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="89dp" />
+
+    <TextView
+        android:id="@+id/textEventName"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Event name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="price"
+        android:id="@+id/textPrice"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout_text3"
+        android:layout_width="240dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="41dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_date" />
+
+    <TextView
+        android:id="@+id/texteventstart"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="7dp"
+        android:text="start"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_text4"
+        android:layout_width="240dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_date" />
+
+        <TextView
+            android:id="@+id/texteventends"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textEventName"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:text="ends"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_text2"
+        android:layout_width="240dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="7dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_blackperson" />
+
+        <TextView
+        android:id="@+id/textSpeaker"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textEventName"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="3dp"
+        android:text="Speaker"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_text"
+        android:layout_width="240dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_location" />
+
+        <TextView
+            android:id="@+id/textLocation"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Location"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_text5"
+        android:layout_width="240dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="9dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_blackphone" />
+
+        <TextView
+            android:id="@+id/textContactnum"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:text="contact num"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_text6"
+        android:layout_width="280dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnregistration"
+            android:layout_width="161dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/border2"
+            android:text="Register" />
+    </LinearLayout>
+
+</RelativeLayout>

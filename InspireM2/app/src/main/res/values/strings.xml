@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">InspireM</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="email_address">Email Address</string>
+    <string name="forgotten_password">Forgotten Password ?</string>
+    <string name="sign_up_for_i_m">Sign up for IɴꜱᴘɪʀᴇM</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="paragraph">The book begins with the childhood of Kalams life. In the beginning, he introduces us to his family and tries to familiarize us with his birthplace Rameswaram. In the childhood, he was a great admirer of his father, Jainulabdeen. He was a man of great wisdom and kindness, and Pakshi Lakshmana Sastry, a close friend of his father and the head priest of the Rameswaram Temple. He had an ideal helpmate in his mother, Ashiamma. He was also influenced by his close friend, Ahmed Jallaluddin; he was about 15 years older than Kalam. With his friend, he talked about spiritual matters. This shows that he believed in spirituality and also believed in God or Khudah. He always went to Lord Shivas temple with his friends.The later part of the opening chapters, he introduces his cousin Samsuddin, his school teachers and all the people who were felt any difference amongst them. Here he expresses one event, which happened in his school days, "Rameswaram Sastry, a new teacher of his school he could not stomach a Hindu Priest's son sitting with a Muslim boy. In accordance with our social ranking as the new teacher saw it, I was asked to go and sit on the back bench. I felt very sad, and so did my parents about the incident. Lakshmana Sastry summoned the teacher, and in our presence, told the teacher that he should not spread the poison of social inequality and communal intolerance in the minds of innocent children".He completed his school education in the Rameswaram Elementary School and Schwartz High School, Rameswaram. In 1950, he joined St. Josephs College Trichi, to study for the B.Sc degree course when he realized that physics was not his subject. Then, at last, he applied in Madras Institute of Technology, [MIT]. He or his family could not afford to spend that much of money for the course at MIT. Zohara, his sister stood with him. When he had in a specific branch of aeronautical engineering, the goal was very clear in his mind at that time. And he tried to communicate with different kinds of people. At MIT, their teachers shaped his thoughts, Prof. Sponder, Prof. Kal Pandalai and Prof. Narasingalu Rao. Each of them had carried distinct personalities. Last year MIT was a year of transition and had a great impact on his later life. From MIT, he went out to Hindustan Aeronautics Limited, [HAL], at Bangalore as a trainer. There he worked on engine overhauling as part of a team. He had trained in radial engine-cum- drum operations. After the completion of engineering, he had applied for the Air Force and Directorate of Technical Development and Production –DTP and PC (Air) of the Ministry of Defence. But he was not selected in Air Force because he failed to pass the physical fitness standards. Later, he was appointed in DTP and PC (Air) as senior scientific Assistant on basic salary only of Rs. 250 per month, in 1950. He had to create opportunities on his own. At the stage, he covered 32 eventful years of his life when he was just on the threshold of his career after graduation</string>
+    <string name="title_activity_create_events">create_events</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+
+</resources>

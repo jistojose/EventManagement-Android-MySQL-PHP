@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_events"
+        android:title="Events">
+
+    <menu>
+        <item android:id="@+id/myevents"
+            android:title="My Events" />
+        <item android:id="@+id/editevents"
+            android:title="Edit Events" />
+        <item android:id="@+id/appliedevents"
+            android:title="Applied Events" />
+    </menu>
+
+    </item>
+
+    <item android:id="@+id/action_settings"
+            android:title="Settings"/>
+        <item android:id="@+id/action_logout"
+            android:title="Logout"/>
+
+
+</menu>
